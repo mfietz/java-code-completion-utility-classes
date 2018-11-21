@@ -1,7 +1,6 @@
 <idea-plugin>
-    <id>mfietz.de.java-code-completion-utility-classes</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>de.mfietz.java-code-completion-utility-classes</id>
+    <name>Java Code Completion for Utility classes</name>
 
     <description><![CDATA[
     Enter short description for your plugin here.<br>
@@ -15,7 +14,7 @@
     -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <completion.contributor language="JAVA" implementationClass="UtilityClassesCompletionContributor"/>
     </extensions>
 
     <actions>
