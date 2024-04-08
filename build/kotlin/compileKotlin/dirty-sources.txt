@@ -1,0 +1,3 @@
+/Users/marf/workspace/java-code-completion-utility-classes/src/main/kotlin/Extensions.kt
+/Users/marf/workspace/java-code-completion-utility-classes/src/main/kotlin/StaticMethodInsertHandler.kt
+/Users/marf/workspace/java-code-completion-utility-classes/src/main/kotlin/UtilityClassesCompletionContributor.kt

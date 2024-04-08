@@ -6,12 +6,7 @@ fun String?.containsAnyIgnoreCase(vararg candidates: String): Boolean {
     if(this == null) {
         return false
     }
-    for (candidate in candidates) {
-        if (this.contains(candidate, true)) {
-            return true
-        }
-    }
-    return false
+    return candidates.any { this.contains(it, true) }
 }
 
 
